@@ -1,0 +1,184 @@
+<html>
+    <head>
+        <title>CHAPTER-07 FORMS</title>
+    </head>
+    <body>
+        <h1>CHAPTER 07 - FORMS</h1>
+       <hr>
+       <h2>FORM STRUCTURE</h2>
+       <form action="http://www.example.com/subscribe.php" method="get">
+        <p>This is where the form controlls will appear.</p>
+       </form>
+       <hr>
+       <h2>TEXT INPUT</h2>
+       <form action="http://www.example.com/login.php">
+        <p>
+            Username:
+            <input type="text" name="username" size="15" maxlength="30">
+        </p>
+       </form>
+       <hr>
+       <h2>PASSWORD INPUT</h2>
+       <form action="http://www.example.com/login.php">
+        <p>
+            Username:
+            <input type="text" name="username" size="15" maxlength="30">            
+        </p>
+        <p>
+            Password:
+            <input type="password" name="password" size="15" max="30">
+        </p>
+       </form>
+       <hr>
+       <h2>TEXT AREA</h2>
+       <form action="http://ww.example.com/comments.php">
+        <p>What did you think of this gig?</p>
+        <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+       </form>
+       <hr>
+       <h2>RADIO BUTTON</h2>
+       <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite genre:
+            <br>
+            <input type="radio" name="genre" value="rock" checked="checked"> Rock
+            <input type="radio" name="genre" value="pop"> Pop
+            <input type="radio" name="genre" value="jazz"> Jazz
+        </p>
+       </form>
+       <hr>
+       <h2>CHECKBOX</h2>
+       <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite music service(s):
+            <br>
+            <input type="checkbox" name="service" value="itunes" checked="checked"> itunes
+            <input type="checkbox" name="service" value="lastfm"> Last.fm 
+            <input type="checkbox" name="service" value="spotify"> Spotify
+        </p>
+       </form>
+       <hr>
+       <h2>DROP DOWN LIST BOX</h2>
+       <form action="http://www.example.com/profile.php">
+        <p>What device do you listen to music on?</p>
+        <select name="devices">
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="computer">Computer</option>
+        </select>
+       </form>
+       <hr>
+       <h2>MULTIPLE SELECT BOX</h2>
+       <form action="http://www.example.com/profile.php">
+        <p>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+        <select name="instruments" size="3" multiple="multiple">
+            <option value="guitar" selected="selected">Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+        </select>
+       </form>
+       <hr>
+       <h2>FILE INPUT BOX</h2>
+       <form action="http://www.example.com/upload.php" method="post">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song"> <br>
+        <input type="submit" value="Upload">
+       </form>  
+       <hr>
+       <h2>SUBMIT BUTTON</h2>
+       <form action="http://www.example.com/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email">
+        <input type="submit" name="subscribe" value="subscribe">
+       </form>
+       <hr>
+       <h2>IMAGE BUTTON</h2>
+       <form action="http://www.example.com/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email">
+        <input type="image" src="images/subscribe.jpg" width="100" height="20">
+       </form>
+       <hr>
+       <h2>BUTTON & HIDDEN CONTROLS</h2>
+       <form action="http://www.example.com/add.php">
+        <button><img src="images/add.gif" alt="add" width="10" height="10">Add</button>
+        <input type="hidden" name="bookmark" value="lyrics">
+       </form>
+       <hr>
+       <h2>LABELLING FORM CONTROLS</h2>
+       <form action="http://www.example.com/subscribe.php">
+        <label>Age: <input type="text" name="age"></label>
+        <br>
+        Gender:
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+       </form>
+       <hr>
+       <h2>GROUPING FORM ELEMENTS</h2>
+       <form action="http://ww.example.com/subscribe.php">
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label>Email: <br>
+            <input type="text" name="email" ></label> <br>
+            <label>Mobile: <br>
+            <input type="text" name="mobile" ></label> <br>
+            <label>Telephone: <br>
+            <input type="text" name="telephone"></label>
+        </fieldset>    
+       </form>
+       <hr>
+       <h2>HTML5: FORM VALIDATION</h2>
+       <form action="http://www.example.com/login.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required="required"> <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required="required">
+        <input type="submit" value="submit">
+       </form>
+       <hr>
+       <h2>HTML5: DATE INPUT</h2>
+       <form action="http://www.example.com/bookings.php" method="post">
+        <label for="depart">Departure date:</label>
+        <input type="date" name="depart">
+        <input type="submit" value="submit">
+       </form>
+       <hr>
+       <h2>HTML5: EMAIL & URL INPUT</h2>
+       <form action="http://www.example.com/subscribe.php">
+        <p>Please enter your email address:</p>
+        <input type="email" name="email">
+        <input type="submit" value="Submit">
+       </form>
+       <form action="http://www.example.com/profile.php">
+        <p>Please enter your website address:</p>
+        <input type="url" name="website">
+        <input type="submit" value="Submit">
+       </form>
+       <hr>
+       <h2>HTML5: SEARCH INPUT</h2>
+       <form action="http://www.example.org/search.php">
+        <p>Search:</p>
+        <input type="search" name="search">
+        <input type="submit" value="Search">
+       </form>
+       <form action="http://www.example.org/search.php">
+        <p>Search:</p>
+        <input type="search" name="search" placeholder="Enter keyword">
+        <input type="submit" value="Search">
+       </form>
+       <hr>
+       <h2>SUMMARY FORMS</h2>
+       <ul>
+        <li>Whenever you want to collect information from visitors you will need a form, which lives inside a &lt;form&gt; element.</li>
+        <li>Information from a form is sent in name/value pairs.</li>
+        <li>Each form control is given a name, and the text the user types in or the values of the options they select are sent to the server.</li>
+        <li>HTML5 introduces new form elements which make it easier for visitors to fill in forms.</li>
+       </ul>
+
+
+
+
+
+    </body>
+</html>
