@@ -1,0 +1,176 @@
+<html>
+    <head>
+        <title>CHAPTER-06 TABLES</title>
+    </head>
+    <body>
+        <h1>CHAPTER 06 - TABLES</h1>
+        <hr>
+        <h2>BASIC TABLE STRUCTURE</h2>
+        <table>
+            <tr>
+                <td>15</td>
+                <td>15</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>60</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>60</td>
+                <td>90</td>
+                <td>90</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>TABLE HEADINGS</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th scope="col">Saturday</th>
+                <th scope="col">Sunday</th>
+            </tr>
+            <tr>
+                <th scope="row">Tickets Sold:</th>
+                <td>120</td>
+                <td>135</td>
+            </tr>
+            <tr>
+                <th scope="row">Total Sales:</th>
+                <td>$600</td>
+                <td>$675</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>SPANNING COLUMNS</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>9am</th>
+                <th>10am</th>
+                <th>11am</th>
+                <th>12am</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td colspan="2">Geography</td>
+                <td>Math</td>
+                <td>Art</td>
+            </tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home Ec</td>
+        </table>
+        <hr>
+        <h2>SPANNING ROWS</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>ABC</th>
+                <th>BBC</th>
+                <th>CNN</th>
+            </tr>
+            <tr>
+                <th>6pm - 7pm</th>
+                <td rowspan="2">Movie</td>
+                <td>Comedy</td>
+                <td>News</td>
+            </tr>
+            <tr>
+                <th>7pm - 8pm</th>
+                <td>Sport</td>
+                <td>Current Affairs</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>LONG TABLES</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Income</th>
+                    <th>Expenditure</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1st January</th>
+                    <td>250</td>
+                    <td>36</td>
+                </tr>
+                <tr>
+                    <th>2nd January</th>
+                    <td>285</td>
+                    <td>48</td>
+                </tr>
+                <tr>
+                    <th>31st January</th>
+                    <td>129</td>
+                    <td>64</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td>7824</td>
+                    <td>1241</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+        <h2>OLD CODE: WIDTH & SPACING</h2>
+        <table width="400" cellpadding="10" cellspacing="5">
+            <tr>
+                <th width="150"></th>
+                <th>Withdrawn</th>
+                <th>Credit</th>
+                <th width="150">Balance</th> 
+            </tr>
+            <tr>
+                <th>January</th>
+                <td>250.00</td>
+                <td>660.50</td>
+                <td>410.50</td>
+            </tr>
+            <tr>
+                <th>February</th>
+                <td>135.55</td>
+                <td>895.20</td>
+                <td>1170.15</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>OLD CODE: BORDER & BACKGROUND</h2>
+        <table border="2" bgcolor="#efefef">
+            <tr>
+                <th width="150"></th>
+                <th>Withdrawn</th>
+                <th>Credit</th>
+                <th width="150" bgcolor="#cccccc">Balance</th>
+            </tr>
+            <tr>
+                <th>January</th>
+                <td>250.00</td>
+                <td>660.50</td>
+                <td bgcolor="#cccccc">410.50</td>
+            </tr>
+            <tr>
+                <th>February</th>
+                <td>135.55</td>
+                <td>895.20</td>
+                <td bgcolor="#cccccc">1170.15</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>SUMMARY TABLES</h2>
+        <ul>
+            <li>The &lt;table&gt; element is used to add tables to a web page.</li>
+            <li>A table is drawn out row by row. Each row is created with the &lt;tr&gt; element</li>
+            <li>Inside each row there are a number of cells represented by the &lt;td&gt; element (or &lt;th&gt; if it is a header).</li>
+            <li>You can make cells of a table span more than one row or column using the rowspan and colspan attributes.</li>
+            <li>For long tables you can split the table into a &lt;thead&gt;, &lt;tbody&gt;, and &lt;tfoot&gt;.</li>
+        </ul>
+
+    </body>
+</html>
