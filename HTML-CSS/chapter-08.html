@@ -1,0 +1,117 @@
+<!DOCTYPE html><!-- HTML 5-->
+
+<!-- HTML 4 -->
+<!-- <!DOCTYPE html PUBLIC 
+"-//w3c//DTD html 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd"> -->
+
+<!-- Transitional XHTML 1.0 -->
+<!-- <!DOCTYPE html PUBLIC
+"-//w3c//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/dtd/xhtml1-transitional.dtd"> -->
+
+<!-- Strict XHTML 1.0 -->
+<!-- <!DOCTYPE html PUBLIC
+"-//w3c//dtd xhtml 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> -->
+
+<!-- XML Declaration -->
+<!-- <?xml version="1.0" ?> -->  
+    <style>
+        #pullquote {
+            text-transform: uppercase;
+        }
+
+        .important {
+            text-transform: uppercase;
+        }
+
+        .admittance {
+            color: #ff0000;
+        }
+
+        .gallery {
+            text-transform: uppercase;
+        }
+    </style>
+    <head>
+        <title>CHAPTER-08 EXTRA MARKUP</title>
+        <meta name="description" content="An Essay on Installation Art">
+        <meta name="keywords" content="installation, art, opinion">
+        <meta name="robots" content="nofollow">
+        <meta http-equiv="author" content="Keith Heffington">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="expires" content="Fri, 04 Apr 2014 23:59:59 GMT">
+    </head>
+    <body>
+        <h1>CHAPTER 08 - EXTRA MARKUP</h1>
+        <hr>
+        <h2>COMMENTS IN HTML</h2>
+        <!-- Start of introduction -->
+        <h3>Current Exhibitions</h3>
+        <h4>Olafur Eliasson</h4>
+        <!-- end of introduction -->
+        <!-- start of main text -->
+        <p>Olafur Eliasson was born in Copenhagen, Denmark in 1967 to Icelandic parents.</p>
+        <p>He is know for sculptures and large-scale installation art emplying elemental materials such as light, water, and air temperature to enhance the viewer's experience.</p>
+        <!-- end of main text -->
+        <!-- <a href="mailto:info@example.org">Contact</a> -->
+        <hr>
+        <h2>ID ATTRIBUTE</h2>
+        <p>Water and air. So very commonplace are these substances, they hardly attract attention - and yet they vouchsafe our very existence.</p>
+        <p id="pullquote">Every time I view the sea I feel a calming sense of security, as if visiting my ancestral home: I embark on a voyage of seeing.</p>
+        <p>Mystery of mysteries, water and air are right there before us in the sea.</p>
+        <hr>
+        <h2>CLASS ATTRIBUTE</h2>
+        <p class="important">For a one-year period from November 2010, the Marugame Genichiro - Inokuma Museum of Contemporary Art (MIMOCA) will host a cycle of four Hiroshi Sugimoto exhibitions.</p>
+        <p>Each will showcase works by the artist thematically contextualized under the headings "Science," "Architecture," "History" and "Religion" so as to present a comprehensive panorama of the artist's oeuvre.</p>
+        <p class="important admittance">Hours: 10:00 - 18:00 (No admittance after 17:30)</p>
+        <hr>
+        <h2>BLOCK ELEMENTS</h2>
+        <h3>Hiroshi Sugimoto</h3>
+        <p>The dates for the ORIGIN of ART exhibition are as follows:</p>
+        <ul>
+            <li>Science: 21 Nov - 20 Feb 2010/11</li>
+            <li>Architecture: 6 Mar - 15 May 2011</li>
+            <li>History: 29 may - 21 Aug 2011</li>
+            <li>Religion: 28 Aug - 6 Nov 2011</li>
+        </ul>
+        <hr>
+        <h2>INLINE ELEMENTS</h2>
+        <p>Timed to a single revolution of the planet around the sun at a 23.4 degrees tilt that plays out the rhythm of the seasons, this <em>Origins of Art</em> cycle is organized around four themes: <b>science, architecture, history</b> and <b>religion</b></p>
+        <hr>
+        <h2>GROUPING TEXT & ELEMENTS IN A BLOCK</h2>
+        <div id="header">
+            <img src="images/logo (1).gif" alt="Anish Kapoor">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div> <!-- end of header-->
+        <hr>
+        <h2>GROUPING TEXT & ELEMENTS INLINE</h2>
+        <p>Anish Kapoor won the Turner Prize in 1991 and exhibited at the <span class="gallery">Tate modern</span> gallery in London in 2003</p>
+        <hr>
+        <h2>IFRAMES</h2>
+        <iframe width="450" height="350" src="https://htmlandcssbook.com/code-samples/chapter-08/"></iframe>
+        <hr>
+        <iframe width="450" height="350" frameborder="0" scrolling="no" src="https://htmlandcssbook.com/code-samples/chapter-08/"></iframe>
+        <hr>
+        <h2>INFORMATION ABOUT YOUR PAGE</h2>
+        <p>&lt;meta&gt; tag is placed in the &lt;head&gt; tag to geather informaion on the site. </p>
+        <h2>SUMMARY EXTRA MARKUP</h2>
+        <ul>
+            <li>DOCTYPES tell browsers which version of HTML you are using</li>
+            <li>You can add comments to your code between the &lt;!-- and -- &gt; markers.</li>
+            <li>The id and class attributes allow you to identify particular elements.</li>
+            <li>The &lt;div&gt; and &lt;span&gt; elements allow you to group block-level and inline elements together.</li>
+            <li>&lt;iframes&gt; cut windwos into your web pages through which other pages can be displayed.</li>
+            <li>The &lt;meta&gt; tag allows you to supply all kinds of information about your web page.</li>
+            <li>Escape characters are used to include spaecial characters in your pages such as &lt;, &gt;, and &copy;.</li>
+        </ul>
+
+
+    </body>
+</html>
