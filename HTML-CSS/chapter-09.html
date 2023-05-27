@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <head>
+        <title>CHAPTER-09 FLASH, VIDEO & AUDIO</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+        <script type="text/javascript" swfobject.embedSWF("flash/bird.swf", "bird", "400", "300", "8.0.0");></script>
+    </head>
+    <body>
+        <h1>CHAPTER 09 - FLASH, VIDEO & AUDIO</h1>
+        <hr>
+        <h2>ADDING A FLASH MOVIE TO YOUR WEB PAGE</h2>
+        <div id="bird"><p>An animation of a bird taking a shower</p></div>
+        <hr>
+        <h2>HTML5: ADDING VIDEO TO OUR PAGES</h2>
+        <video 
+        src="video/puppy.mp4"
+        poster="images/puppy.jpg"
+        width="400" height="300"
+        preload
+        controls
+        loop>
+        <p>A video of a puppy playing in the snow</p>
+        </video>  
+        <hr>
+        <h2>HTML5: MULTIPLE VIDEO SOURCES</h2>
+        <video poster="images/puppy.jpg" width="400" height="320" preload controls loop>
+            <source src="video/puppy.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'/>
+            <source src="video/puppy.webm" type='video/webm;codecs="vp8, vorbis"'/>
+            <p>A video of a puppy playing in the snow</p>
+        </video>
+        <hr>
+        <h2>HTML5: ADDING HTML5 AUDIO TO YOUR PAGES</h2>
+        <audio src="audio/test-audio.ogg"
+               controls
+               autoplay>
+                <p>This browser does not support our audio format.</p>
+        </audio>
+        <hr>
+        <h2>HTML5: MULTIPLE AUDIO SOURCES</h2>
+        <audio controls autoplay>
+            <source src="audio/test-audio.ogg">
+            <source src="audio/test-audio.mp3">
+            <p>This browser does not support our audio format.</p>
+        </audio>
+        <hr>
+        <h2>SUMMARY FLASH, VIDEO & AUDIO</h2>
+        <ul>
+            <li>Flash allows you to add animations, video and sudio to the web</li>
+            <li>Flash is not supported on iPhone or iPad</li>
+            <li>HTML5 introduces new &lt;video&gt; and &lt;audio&gt; elements for adding video and audio to web pages, but these are only supported in the latest browsers.</li>
+            <li>Browsers that support the HTML5 elements do not all support the same video and audio formats, so you need to supply your files in different formats to ensure that everyone can see/hear them.</li>
+        </ul>
+        <hr>
+        
+
+
+
+    </body>
+</html>
