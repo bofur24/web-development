@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <head>
+        <title>CHAPTER-10 INTRODUCING CSS</title>
+        <link rel="stylesheet" href="css/chapter-10-styles.css">
+        <style type="text/css">
+            h4 {
+                color: #fd0000;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CHAPTER 10 - INTRODUCING CSS</h1>
+        <hr>
+        <h2>USING EXTERNAL CSS</h2>
+        <h3>Potatoes</h3>
+        <p>There are dozens of different potato varieties. They are usually described as early, second early and maincrop.</p>
+        <hr>
+        <h2>USING INTERNAL CSS</h2>
+        <h4>Potatoes</h4>
+        <p>There are dozens of different potato varieties. They are usually described as early, second early and maincrop.</p>
+        <hr>
+        <h2>CSS SELECTORS</h2>
+        <h3 id="top">Kitchen Garden Calendar</h3>
+        <p id="introduction">Here you can read our handy guide about what to do when.</p>
+        <h4>Spring</h4>
+        <ul>
+            <li><a href="mulch.html">Spring mulch vegetable beds</a></li>
+            <li><a href="potato.html">Plant out early potatoes</a></li>
+            <li><a href="tomato.html">Sow tomato seeds</a></li>
+            <li><a href="beet.html">Sow beet seeds</a></li>
+            <li><a href="zucchini.html">Sow zucchini seeds</a></li>
+            <li><a href="rhubarb.html">Deadhead rhubarb flowers</a></li>
+        </ul>
+        <p class="note">
+            This page was written by
+            <a href="mailto:ivy@example.org">ivy@example.org</a> for 
+            <a href="http://www.example.orge">Example</a>
+        </p>
+        <p>
+            <a href="#top">Top of page</a>
+        </p>
+        <hr>
+        <h2>HOW CSS RULES CASCADE</h2>
+        <h4>Potatoes</h4>
+        <p id="intro">There are <i>dozens</i> of different <b>potato</b> varieties. They are usually described as early, second early and maincrop.</p>
+        <hr>
+        <h2>INHERITANCE</h2>
+        <div class="page">
+            <h4>Potatoes</h4>
+            <p>There are dozens of different potato varieties</p>
+            <p>They are usually described as early, second early and maincrop potatoes.</p>
+        </div> 
+        <div class="summary">
+            <h2>summary introducing css</h2>
+            <ul>
+                <li>CSS treats each HTML element as if it appears inside its own box and uses rules to indicate how that element should look.</li>
+                <li>Rules are made up of selectors (that specify the elements the rule applies to) and declarations (that indicate what these elements should look like).</li>
+                <li>Different types of selectors allow you to target your rules at different elements.</li>
+                <li>Declarations are made up of two parts: the properties of the element that you want to change, and the values of those properties. For example, the font-family property sets the choice of font, and the value arial specifies Arial as the preferred typeface.</li>
+                <li>CSS rules usually appear in a separate document, although they may appear within an HTML page.</li>
+            </ul>
+        </div>  
+    </body>
+</html>
