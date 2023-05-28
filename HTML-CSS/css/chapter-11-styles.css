@@ -1,0 +1,81 @@
+/* CHAPTER 11 CSS */
+
+/* Color Name */
+.foreground h3 {
+    color: darkcyan;
+}
+/* hex code */
+.foreground h4 {
+    color: #ee3e80;
+}
+/* rgb value */
+.foreground p {
+    color: rgb(100, 100, 90);
+}
+
+.background  {
+    background-color: rgb(200, 200, 200);
+    padding: 10px;
+}
+
+.background h3 {
+    background-color: darkcyan;
+}
+
+.background h4 {
+    background-color: #ee3e80;
+}
+
+.background p {
+    background-color: white;
+}
+
+.opacity p{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin: 20px;
+}
+
+.opacity div {
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    display: inline-block;
+    background-color: #ee3e80;
+}
+
+.opacity p.one {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+.opacity p.two {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hsl {
+    background-color: #c8c8c8;
+    background-color: hsl(0, 0.0%, 78%);
+    padding: 10px;
+}
+
+.hsl h3 {
+    background-color: darkcyan;
+}
+
+.hsl h4 {
+    background-color: #ee3e80;
+}
+
+.hsl p {
+    background-color: #fff;
+    background-color: hsla(0, 100%, 100%, 0.5);
+}
+
+.summary h2{
+    text-transform: uppercase;
+}
