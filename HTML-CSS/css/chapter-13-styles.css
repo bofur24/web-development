@@ -1,0 +1,33 @@
+/* CHAPTER 13 CSS */
+
+.width-height {
+    height: 300px;
+    width: 400px;
+    background-color: #ee3e80;
+}
+
+.width-height p {
+    height: 75%;
+    width: 75%;
+    background-color: #e1ddda;
+}
+
+.min-width-max-width {
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;
+}
+
+.min-width-max-width th {
+    border-bottom: 1px solid#0088dd;
+    text-align: left;
+    color: #0088dd;
+    font-weight: normal;
+}
+
+.min-width-max-width td.description {
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+}
