@@ -1,5 +1,7 @@
 /* CHAPTER 13 CSS */
 
+/* width & height */
+
 .width-height {
     height: 300px;
     width: 400px;
@@ -11,6 +13,8 @@
     width: 75%;
     background-color: #e1ddda;
 }
+
+/* min-width max-width */
 
 .min-width-max-width {
     font-family: Arial, Verdana, sans-serif;
@@ -31,6 +35,8 @@
     padding: 5px;
     margin: 0px;
 }
+
+/* min-height, max-height */
 
 .min-height-max-height {
     font-family: Arial, Verdana, sans-serif;
@@ -54,4 +60,111 @@
 .min-height-max-height p {
     min-height: 10px;
     max-height: 30px;
+}
+/* Overflow
+    hidden & scroll */
+
+.overflow p.one{
+    overflow: hidden;
+}
+
+.overflow p.two {
+    overflow: scroll;
+}
+
+/* border-width 
+    thin, medium, thick
+    border-top-width
+    border-right-width
+    border-bottom-width
+    border-left-width*/
+
+.border-width p {
+    width: 200px;
+    border-style: solid;
+}
+
+.border-width p.one{
+    border-width: 2px;
+}
+
+.border-width p.two {
+    border-width: thick;
+}
+
+.border-width p.three {
+    border-width: 1px 4px 12px 4px;
+
+}
+
+/* border-style */
+
+.border-style p.one {
+    border-style: solid;
+}
+
+.border-style p.two {
+    border-style: dotted;
+}
+
+.border-style p.three {
+    border-style: dashed;
+}
+
+.border-style p.four {
+    border-style: double;
+}
+
+.border-style p.five {
+    border-style: groove;
+}
+
+.border-style p.six {
+    border-style: ridge;
+}
+
+.border-style p.seven {
+    border-style: inset;
+}
+
+.border-style p.eight {
+    border-style: outset;
+}
+
+/* border-color */
+
+.border-color p {
+    border-style: solid;
+}
+
+.border-color p.one {
+    border-color: #0088dd;
+}
+
+.border-color p.two {
+    border-color: #bbbbaa #111 #ee3e80 #0088dd;
+}
+
+/* border */
+
+.border p{
+    width: 250px;
+    border: 3px dotted #0088dd;
+}
+
+/* centering content */
+
+.center {
+    text-align: center;
+}
+
+.center p {
+    width: 300px;
+    padding: 50px;
+    border: 20px solid #0088dd;
+}
+
+.center p.example {
+    margin: 10px auto 10px auto;
+    text-align: left;
 }
