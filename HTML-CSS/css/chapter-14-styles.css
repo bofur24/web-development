@@ -1,0 +1,21 @@
+/* CHAPTER 14 CSS */
+
+/* list-style-type
+    UNORDERED LISTS
+    none, disc, circle, square
+    ORDERED LISTS
+    decimal, decimal-leading-zero, lower-alpha, upper-alpha, lower-roman, & upper-roman */
+
+    .list-style-type ol{
+        list-style-type: lower-roman;
+    }
+
+    /* list-style-image */
+
+    .list-style-image ul{
+        list-style-image: url(../images/star.png);
+    }
+
+    .list-style-image li {
+        margin: 10px 0px 0px 0px;
+    }
