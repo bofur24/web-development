@@ -19,3 +19,33 @@
     .list-style-image li {
         margin: 10px 0px 0px 0px;
     }
+
+    /* list-style-position 
+        Outside & Inside*/
+
+    .list-style-position ul {
+        width: 250px;
+    }
+
+    .list-style-position li {
+        margin: 10px;
+    }
+
+    .list-style-position ul.illuminations {
+        list-style-position: outside;
+    }
+
+    .list-style-position ul.season {
+        list-style-position: inside;
+    }
+
+    /* list-style */
+
+    .list-style ul {
+        list-style: inside circle;
+        width: 300px;
+    }
+
+    .list-style li {
+        margin: 10px 0px 0px 0px;
+    }
