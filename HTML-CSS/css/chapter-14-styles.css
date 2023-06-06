@@ -49,3 +49,39 @@
     .list-style li {
         margin: 10px 0px 0px 0px;
     }
+
+    /* Table Properties */
+
+    .table {
+        font-family: Arial, Verdana, sans-serif;
+        color: #111;       
+    }
+
+    .table table {
+        width: 600px;        
+    }
+
+    .table th, td {
+        padding: 7px 10px 10px 10px;
+    }
+
+    .table th {
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 90%;
+        border-bottom: 2px solid #111;
+        border-top: 1px solid #999;
+        text-align: left;
+    }
+
+    .table tr.even {
+        background-color: #efefef;
+    }
+
+    .table tr:hover {
+        background-color: #c3e6e5;
+    }
+
+    .money {
+        text-align: right;
+    }
