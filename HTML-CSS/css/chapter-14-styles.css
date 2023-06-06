@@ -49,3 +49,179 @@
     .list-style li {
         margin: 10px 0px 0px 0px;
     }
+
+    /* Table Properties */
+
+    .table {
+        font-family: Arial, Verdana, sans-serif;
+        color: #111;       
+    }
+
+    .table table {
+        width: 600px;        
+    }
+
+    .table th, td {
+        padding: 7px 10px 10px 10px;
+    }
+
+    .table th {
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 90%;
+        border-bottom: 2px solid #111;
+        border-top: 1px solid #999;
+        text-align: left;
+    }
+
+    .table tr.even {
+        background-color: #efefef;
+    }
+
+    .table tr:hover {
+        background-color: #c3e6e5;
+    }
+
+    .money {
+        text-align: right;
+    }
+
+    /* empty-cells */
+
+    .empty-cells td {
+        border: 1px solid#0088dd;
+        padding: 15px;
+    }
+
+    .empty-cells table.one {
+        empty-cells: show;
+    }
+
+    .empty-cells table.two {
+        empty-cells: hide;
+    }
+
+    /* border-spacing, border-collapse */
+
+    .borders td {
+        background-color: #0088dd;
+        padding: 15px;
+        border: 2px solid #000;
+    }
+
+    .borders table.one {
+        border-spacing: 5px 15px;
+    }
+
+    .borders table.two {
+        border-collapse: collapse;
+    }
+
+    /* input-style */
+
+    .input-style input {
+        font-size: 120%;
+        color: #5a5854;
+        background-color: #f2f2f2;
+        border: 1px solid #bdbdbd;
+        border-radius: 5px;
+        padding: 5px 5px 5px 30px;
+        background-repeat: no-repeat;
+        background-position: 8px 9px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .input-style input:focus, input:hover {
+        background-color: #fff;
+        border: 1px solid#b1e1e4;
+    }
+
+    .input-style input#email {
+        background-image: url("../images/email.png");
+    }
+
+    .input-style input#twitter {
+        background-image: url("../images/twitter.png");
+    }
+
+    .input-style input#web {
+        background-image: url("../images/web.png");
+    }
+
+    /* Submit Style */
+
+    .submit input {
+        font-size: 120%;
+        color: #5a5854;
+        background-color: #f2f2f2;
+        border: 1px solid #bdbdbd;
+        border-radius: 5px;
+        padding: 5px 10px 5px 10px;
+        background-repeat: no-repeat;
+        background-position: 8px 9px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .submit input#submit {
+        color: #444;
+        text-shadow: 0px 1px 1px #fff;
+        border-bottom: 2px solid #b2b2b2;
+        background-color: #b9e4e3;
+        background: -webkit-gradient(linear, left top, left bottom, from(#beeae9), to(#a8cfce));
+        background: -moz-linear-gradient(top, #beeae9, #a8cfce);
+        background: -o-linear-gradient(top, #beeae9, #a8cfce);
+        background: -ms-linear-gradient(top, #beeae9, #a8cfce)
+    }
+
+    .submit input#submit:hover {
+        color: #333;
+        border: 1px solid #a4a4a4;
+        border-top: 2px solid #b2b2b2;
+        background-color: #a0dbc4;
+        background: -webkit-gradient(linear, left top, left bottom, from(#a8cfce), to(#beeae9));
+        background: -moz-linear-gradient(top, #a8cfce, #beeae9);
+        background: -o-linear-gradient(top, #a8cfce, #beeae9);
+        background: -ms-linear-gradient(top, #a8cfce, #beeae9);
+    }
+
+    /* Fieldset style */
+
+    .fieldset fieldset {
+        width: 350px;
+        border: 1px solid #dcdcdc;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: right;
+    }
+
+    .fieldset legend {
+        background-color: #efefef;
+        border: 1px solid #dcdcdc;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .fieldset input {
+        border-bottom: 1px dotted #dcdcdc;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding: 5px;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .fieldset input#submit {
+        color: #fff;
+        background-color: #665544;
+        border: none;
+        border-radius: 5px;
+        width: 80px;
+    }
+
+
+
