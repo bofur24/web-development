@@ -169,7 +169,33 @@
                 </fieldset>
             </form>
         </div>
+        <hr>
         <h2>ALIGNING FORM CONTROLS: PROBLEM</h2>
+        <div>
+            <form action="example.php" method="post">
+                <div>
+                    <label for="name" class="title">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email" class="title">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="radio-buttons">
+                    <span class="title">Gender</span>
+                    <input type="radio" name="gender" id="male" value="M">
+                    <label for="male">M</label>
+                    <input type="radio" name="gender" id="female" value="F">
+                    <label for="female">F</label>
+                    <br>
+                </div>
+                <div class="submit-1">
+                    <input type="submit" value="Register" id="submit">
+                </div>
+            </form>
+        </div>
+        <hr>
+        <h2>ALIGNING FORM CONTROLS: Solution</h2>
         <div class="form">
             <form action="example.php" method="post">
                 <div>
@@ -188,10 +214,27 @@
                     <label for="female">F</label>
                     <br>
                 </div>
-                <div class="submit">
+                <div class="submit-1">
                     <input type="submit" value="Register" id="submit">
                 </div>
             </form>
+        </div>
+        <hr>
+        <h2>CURSOR STYLES</h2>
+        <div class="cursor">
+            <a href="http://www.whitmanarchive.org">Walt Whitman</a>
+        </div>
+        <hr>
+        <div class="summary">
+            <h2>summary</h2>
+            <p>lists, tables and forms</p>
+            <ul>
+                <li>In addition to the CSS properties covered in other chapters which work with the contents of all elements, there are several others that are specifically used to control the appearance of lists, tables, and forms.</li>
+                <li>List markers can be given different apperances using the list-style-type and list-style image properties.</li>
+                <li>Table cells can have different borders and spacing in different browsers, but there are properties you can use to control them and make them more consistent.</li>
+                <li>Forms are easier to use if the form controls are vertically aligned using CSS.</li>
+                <li>Forms benefit from styles that make them feel more interactive.</li>
+            </ul>
         </div>
     </body>
 </html>
