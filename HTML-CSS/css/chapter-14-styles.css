@@ -223,5 +223,36 @@
         width: 80px;
     }
 
+    /* Aligning Form Controls */
+
+    .form div {
+        border-bottom: 1px solid #efefef;
+        margin: 10px;
+        padding-bottom: 10px;
+        width: 260px;
+    }
+
+    .form .title {
+        float: left;
+        width: 100px;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .form .submit-1 {
+        text-align: right;
+    }
+
+    /* Cursor */
+
+    .cursor a {
+        cursor: move;
+    }
+
+    /* SUMMARY */
+
+    .summary h2, p{
+        text-transform: uppercase;
+    }
 
 
