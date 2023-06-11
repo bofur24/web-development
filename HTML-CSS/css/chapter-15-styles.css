@@ -1,0 +1,29 @@
+/* CHAPTER 15 CSS */
+
+h2 {
+    text-transform: uppercase;
+} 
+
+.static,
+.relative {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+}
+
+.static h3,
+.relative h3 {
+    background-color: #efefef;
+    padding: 10px;
+}
+
+.static p,
+.relative p {
+    width: 450px;
+}
+
+.relative p.example {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
