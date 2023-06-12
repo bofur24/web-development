@@ -22,8 +22,39 @@ h2 {
     width: 450px;
 }
 
+/* position:relative */
+
 .relative p.example {
     position: relative;
     top: 10px;
     left: 100px;
+}
+
+/* position:absolute */
+
+.absolute h3 {
+    position: absolute;
+    top: 1170px;
+    left: 500px;
+    width: 250px;
+}
+
+.absolute p {
+    width: 450px;
+}
+
+/* position:fixed */
+
+.fixed h3 {
+    position: fixed;
+    top: 725px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #efefef;
+}
+
+.fixed p.example {
+    margin-top: 100px;
 }
