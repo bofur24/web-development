@@ -47,14 +47,71 @@ h2 {
 
 .fixed h3 {
     position: fixed;
-    top: 725px;
-    left: 0px;
+    top: 525px;
+    left: 60%;
     padding: 10px;
     margin: 0px;
-    width: 100%;
+    width: 20%;
     background-color: #efefef;
 }
 
 .fixed p.example {
     margin-top: 100px;
 }
+
+/* z-index */
+
+.z-index h3 {
+    position: fixed;
+    top: 900px;
+    left: 0px;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    background-color: #efefef;
+    z-index: 10;
+}
+
+.zindex p {
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+
+/* float */
+
+.float blockquote {
+    float: right;
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+}
+
+.float-1, .float-2 {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    margin-bottom: 350px;
+}
+
+.float-1 p, .float-2 p {
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+}
+
+.float-2 {
+    margin-bottom: 550px;
+}
+
+.float-2 .clear {
+    clear: left;
+}
+
