@@ -47,14 +47,109 @@ h2 {
 
 .fixed h3 {
     position: fixed;
-    top: 725px;
-    left: 0px;
+    top: 525px;
+    left: 60%;
     padding: 10px;
     margin: 0px;
-    width: 100%;
+    width: 20%;
     background-color: #efefef;
 }
 
 .fixed p.example {
     margin-top: 100px;
+}
+
+/* z-index */
+
+.z-index h3 {
+    position: fixed;
+    top: 900px;
+    left: 0px;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    background-color: #efefef;
+    z-index: 10;
+}
+
+.zindex p {
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+
+/* float */
+
+.float blockquote {
+    float: right;
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+}
+
+.float-1, .float-2, .float-3, .float-4 {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    margin-bottom: 350px;
+}
+
+.float-1 p, .float-2 p, .float-3 p, .float-4 p {
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+}
+
+.float-2 {
+    margin-bottom: 550px;
+}
+
+.float-2 .clear {
+    clear: left;
+}
+
+.float-3, .float-4 {
+    width: 752px;
+}
+
+.float-3 .clear, .float-4 .clear {
+    clear: both;
+}
+
+.float-3 p, .float-4 p {
+    background-color: inherit;
+}
+
+.float-3, .float-4 {
+    border: 1px solid #665544;
+}
+
+.float-4 {
+    overflow: auto;
+    width: 100%;
+}
+
+.column1of2 {
+    float: left;
+    width: 620px;
+    margin: 10px;
+}
+
+.column2of2 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+
+.column1of3, .column2of3, .column3of3 {
+    width: 300px;
+    float: left;
+    margin: 10px;
 }
