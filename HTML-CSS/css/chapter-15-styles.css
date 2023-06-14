@@ -92,14 +92,14 @@ h2 {
     border-bottom: 1px solid #665544;
 }
 
-.float-1, .float-2 {
+.float-1, .float-2, .float-3, .float-4 {
     width: 750px;
     font-family: Arial, Verdana, sans-serif;
     color: #665544;
     margin-bottom: 350px;
 }
 
-.float-1 p, .float-2 p {
+.float-1 p, .float-2 p, .float-3 p, .float-4 p {
     width: 230px;
     float: left;
     margin: 5px;
@@ -115,3 +115,41 @@ h2 {
     clear: left;
 }
 
+.float-3, .float-4 {
+    width: 752px;
+}
+
+.float-3 .clear, .float-4 .clear {
+    clear: both;
+}
+
+.float-3 p, .float-4 p {
+    background-color: inherit;
+}
+
+.float-3, .float-4 {
+    border: 1px solid #665544;
+}
+
+.float-4 {
+    overflow: auto;
+    width: 100%;
+}
+
+.column1of2 {
+    float: left;
+    width: 620px;
+    margin: 10px;
+}
+
+.column2of2 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+
+.column1of3, .column2of3, .column3of3 {
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
