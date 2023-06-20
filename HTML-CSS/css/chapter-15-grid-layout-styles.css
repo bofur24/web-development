@@ -1,37 +1,22 @@
-/* CHAPTER 15 FIXED WITDTH LAYOUT */
+/* CHAPTER 15 GRID LAYOUT */
 
-body {
-    width: 90%;
-    margin: 0 auto;
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
     text-align: center;
 }
 
-#content {
-    overflow: auto;
+#nav, #feature, .article, #footer {
+    background-color: #efefef;
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;
 }
 
-#nav, #feature, #footer {
-    margin: 1%;
-}
-
-.column1, .column2, .column3 {
-    width: 31.3%;
-    float: left;
-    margin: 1%;
+#feature, .article {
+    height: 100px;
 }
 
 li {
     display: inline;
-    padding: 0.5em;
-}
-
-#nav, #footer {
-    background-color: #efefef;
-    padding: 0.5em 0;
-}
-
-#feature, .article {
-    height: 10em;
-    margin-bottom: 1em;
-    background-color: #efefef;
+    padding: 5px;
 }
