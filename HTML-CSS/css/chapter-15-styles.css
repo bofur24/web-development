@@ -153,3 +153,7 @@ h2 {
     float: left;
     margin: 10px;
 }
+
+.summary {
+    text-transform: uppercase;
+}
