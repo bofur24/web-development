@@ -18,3 +18,25 @@ h1, h2 {
     width: 100px;
     height: 100px;
 }
+
+.center img.align-center {
+    display: block;
+    margin: 0px auto;
+}
+
+.center img.medium {
+    width: 250px;
+    height: 250px;
+}
+
+.bg-body {
+    background-image: url(../images/pattern.gif);
+    color: white;
+    padding: 20px;
+}
+
+.bg-element p {
+    background-image: url(../images/pattern.gif);
+    color: white;
+    padding: 20px;
+}
