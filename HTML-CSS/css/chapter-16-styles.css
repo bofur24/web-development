@@ -40,3 +40,48 @@ h1, h2 {
     color: white;
     padding: 20px;
 }
+
+.bg-repeat {
+    background-image: url(../images/header.gif);
+    background-repeat: repeat-x;
+    color: #665544;
+    padding: 20px;
+}
+
+.bg-repeat h3 {
+    color: #fff;
+}
+
+.bg-repeat h4 {
+    margin-top: 50px;
+}
+
+.bg-attachment {
+    background-image: url(../images/tulip.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 300px 500px;
+}
+
+.bg-position {
+    background-image: url(../images/tulip.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bg-position-percentage {
+    background-image: url(../images/tulip.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;   
+}
+
+/* Shorthand
+1. background-color
+2. background-image
+3. background-repeat
+4. background-attachment
+5. background-position */
+
+.bg-background {
+    background: #fff url(../images/tulip.gif) no-repeat top right;
+}
