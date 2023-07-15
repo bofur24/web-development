@@ -50,3 +50,11 @@ h1 {
 	height: 370px;
 	width: 600px;
 	text-align: center;}
+
+#footer h2 {
+	text-align: center;
+}
+
+#footer ul {
+	margin-left: 200px;
+}
