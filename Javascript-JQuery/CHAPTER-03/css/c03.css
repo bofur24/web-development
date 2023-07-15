@@ -120,11 +120,33 @@ p + h2 {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #adffda;}
+  background-color: #adffda;  
+}
 
 #footer p {
   padding: 10px;
   margin: 0;}
+
+#footer h2 {
+  color: inherit;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;  
+}  
+
+#footer #statement {
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;  
+}
+
+#footer ul {
+  margin-left: 200px;
+  font-size: 20px;
+}
 
 .data {
   padding: 10px;}
