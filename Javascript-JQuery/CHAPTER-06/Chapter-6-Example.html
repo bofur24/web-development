@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript &amp; jQuery - Chapter 6: Events - Example</title>
+    <link rel="stylesheet" href="css/c06.css" />
+  </head>
+  <body>
+    <div id="page">
+      <h1>List King</h1>
+      <h2 id="noteName">Audio Note</h2>
+      <form action="http://example.org/">
+        <label for="noteInput">Enter note name:</label>
+        <input type="text" id="noteInput" />
+        <div id="buttons">
+          <a data-state="record" href="">record</a>
+        </div>
+      </form>
+    </div>
+    <div class="page">
+      <h2>Summary</h2>
+      <ul>
+        <li>Events are the browser's way of indicating when somehting has happened (such as when a page has finished loading or a button has been clicked).</li>
+        <li>Binding is the process of stating which event you are waiting to happen, and which element you are waiting for that event to happen upon.</li>
+        <li>When an event occurs on an element, it can trigger a JavaScript function. When this function hten changes the web page in some way, it feels interactive because it has responded to the user.</li>
+        <li>You can use event delegation to monitor for events that happen on all of the children of an element.</li>
+        <li>The most commonly used events are W3C DOM events, although there are others in the HTML5 specification as well as browser-specific events.</li>
+      </ul>
+    </div>
+    <script src="js/Chapter-6-Example.js"></script>
+  </body>
+</html>
