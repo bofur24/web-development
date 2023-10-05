@@ -6,7 +6,8 @@ body {
   margin: 0; 
   padding: 0;}
 
-#page {
+#page,
+.page {
   background-color: #403c3b;
   margin: 0 auto 0 auto;}
   /* Responsive page rules at bottom of style sheet */
